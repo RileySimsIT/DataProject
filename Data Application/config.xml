@@ -2,9 +2,9 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Data Application</name>
     <description>
-        A blank PhoneGap app.
+        A app to display data in several different ways
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="rileytsims@hotmail.com" href="http://github.com/RileySimsIT">
         PhoneGap Team
     </author>
     <content src="index.html" />

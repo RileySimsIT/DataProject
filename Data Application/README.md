@@ -1,4 +1,4 @@
-# A Blank PhoneGap App
+# A PhoneGap Application by Riley Sims
 
 ## Usage
 
