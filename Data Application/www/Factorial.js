@@ -2,7 +2,7 @@ function factorialLoad(){
     var dhtml = `
         <p style="display:none;" id="count" >0</p>
         <h2 style="text-align:center; width:40%; margin-left: 30%; margin-bottom:0px; margin-top:0px;">Iterative</h2>
-        <h1 style="text-align: center; width:80%; margin-left:10%; border-bottom: 1px solid #000000; margin-top:0px;">Factorial Calculator</h1>
+        <h1 class="title">Factorial Calculator</h1>
         <div id="input" style="display:block; text-align:center;">
             <label for="numIn">Input a number </label>
             <input type="number" id="numIn" style="border:1px solid black; padding:1px; width:30px;">

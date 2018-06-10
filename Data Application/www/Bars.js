@@ -1,6 +1,6 @@
 function barsLoad(){
     var dhtml = `       
-        <h1 style="text-align:center; width:80%; margin-left:10%; border-bottom:1px solid #000000; margin-top:0px;">Random Bars</h1>
+        <h1 class="title">Random Bars</h1>
         <div id="wrap" style="width:80%; margin-left:10%; margin-top:20px; margin-bottom:40px;" >
             <div id="container" style="width:100%; border: 1px solid black; height:50px; background:white; margin-bottom:40px; box-shadow: 2px 5px #888888;">
                 <div id="bar1" style="height:50px;"></div>
