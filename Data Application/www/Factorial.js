@@ -6,14 +6,14 @@ function factorialLoad(){
         <div id="input" style="display:block; text-align:center;">
             <label for="numIn">Input a number </label>
             <input type="number" id="numIn" style="border:1px solid black; padding:1px; width:30px;">
-            <button id="btnCalc" value="Calculate" onclick="factorial()" style="width:20%;">Calculate!</button> </br>
             <div id="errorBox" style="width:90%; margin-left:5%; text-align:center; border: 1px solid #FF0000; margin-top:10px; display:none; box-shadow: 2px 2px #666666;">
                     <label id="lblError" style="color: #FF0000;">Error: </label>
             </div>
             <div id="output" style="text-align: center; margin-top: 10px; width:80%; margin-left: 10%; display:none;">
 
             </div>
-            <button id="menu" onclick="menu();" class="menuButton" style="position: absolute; top:550px; width:40%; left:30%;">Main Menu</button>
+            <button id="menu" onclick="menu();" class="menuButton" style="position: absolute; top:550px; width:40%; left:5%;">Main Menu</button>
+            <button id="btnCalc" value="Calculate" class="menuButton" onclick="factorial()" style="position: absolute; top:550px; width:40%; right:5%;">Calculate!</button>
         </div>
     `;
     document.getElementById("content").innerHTML = dhtml;
@@ -29,10 +29,10 @@ function factorial(){
         document.getElementById("output").innerHTML = "";
         count = 0;
         document.getElementById("count").innerHTML = count;
-    } else if(n.length > 2){
+    } else if(n.length > 5){
         document.getElementById("errorBox").style.display = "block";
         document.getElementById("output").style.display = "none";
-        document.getElementById("lblError").innerHTML = "ERROR: Numbers must be 2 digits or less!";
+        document.getElementById("lblError").innerHTML = "ERROR: Numbers must be 5 digits or less! Any number over 170 will yield \"infinity\"";
         document.getElementById("output").innerHTML = "";
         count = 0;
         document.getElementById("count").innerHTML = count;
