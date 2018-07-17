@@ -1,2 +1,2 @@
 # DataProject
-Attempting to show randomly generated data in a multitude of ways
+A phone application made with PhoneGap build fit with personal projects as well as common interview questions
